@@ -1,0 +1,9 @@
+﻿﻿version: '3'
+
+services:
+  jovensambientalistas:
+    image: jovensambientalistas
+    build:
+      context: .
+    ports:
+      - "20000:80"
